@@ -1,0 +1,17 @@
+.grey-user {
+    color: black;
+    border: 2px solid darkgrey;
+    background-color: lightgrey;
+    min-width: 380px;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.grey-user-title {
+    text-align: center;
+}

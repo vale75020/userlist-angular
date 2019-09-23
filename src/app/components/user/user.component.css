@@ -1,0 +1,19 @@
+.user {
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    min-width: 380px;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.user-title {
+    text-align: center;
+}
+
+

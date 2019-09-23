@@ -1,0 +1,20 @@
+<div class="grey-user">
+        <h2 class="grey-user-title">Second User</h2>
+        <p>Short Description</p>
+        <ul>
+          <li>Firstname: {{ firstName }}</li>
+          <li>Lastname: {{ lastName }}</li>
+          <li>Age: {{ age }}</li>
+          <li>
+            Hobby:
+            <ul>
+              <li>1. {{ hobby.hobbyOne }}</li>
+              <li>2. {{ hobby.hobbyTwo }}</li>
+              <li>3. {{ hobby.hobbyThree }}</li>
+            </ul>
+          </li>
+          <li>Email: {{ email }}</li>
+        </ul>
+        <button (click)="onClickInfo()">More Info</button>
+      </div>
+      
